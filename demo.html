@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aheader Demo</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="jquery.aheader.js"></script>
+  <script>
+  $(document).on('ready', function() {
+    return $('.header').aheader()
+  });
+  </script>
+</head>
+<body style="text-align: center; margin: 0;">
+
+  <div class="banner" style="background: #498ef2;">
+    <h1>This is just a banner</h1>
+  </div>
+
+  <div class="header" style="border: 2px solid black; background: gray;">
+    <h1>This is a header</h1>
+  </div>
+  
+  <div class="content" style="height: 4000px;">
+    <h3>Scroll down, then up.</h3>
+  </div>
+
+</body>
+</html>
